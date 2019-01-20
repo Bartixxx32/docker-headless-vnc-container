@@ -4,6 +4,4 @@ services:
   - docker
   
 script:
-- git clone https://github.com/Bartixxx32/docker-headless-vnc-container
-- cd https://github.com/Bartixxx32/docker-headless-vnc-container
 - docker build . --tag test
